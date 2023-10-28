@@ -4,3 +4,208 @@
     --add-color:#757575 ;
     --bg-color: #2F303A;
 }
+body {
+    font-family: "Roboto";
+}
+.logo {
+    color: #2196f3;
+font-family: Raleway;
+font-size: 26px;
+letter-spacing: 0.78px;
+}
+.logo-studio {
+    color: #000;
+font-family: Raleway;
+font-size: 26px;
+letter-spacing: 0.78px;
+}
+.novigation-item {
+    color: var(--maine-color);
+font-size: 14px;
+font-weight: 500;
+letter-spacing: 0.28px;
+text-decoration: none;
+}
+.nav-link:hover {
+    color: #2196f3;
+    text-decoration: none;
+}
+.contact-link {
+    color: var(--maine-color);
+font-size: 14px;
+font-weight: 500;
+letter-spacing: 0.28px;
+text-decoration: none;
+}
+.contact-link:hover {
+color: #2196f3;
+}
+.contact-num {
+    color: var(--add-color);
+font-size: 14px;
+font-weight: 500;
+letter-spacing: 0.28px;
+}
+.hero {
+background: #2F303A;
+width: 1600px;
+height: 600px;
+}
+.hero-title {
+    color: #ffff;
+display: flex;
+width: 696px;
+height: 120px;
+justify-content: center;
+align-items: center;
+}
+.hero-button {
+    color: #FFF;
+text-align: center;
+font-size: 16px;
+font-weight: 700;
+line-height: 187.5%;
+letter-spacing: 0.96px;
+background: #2196F3;
+margin: 0%;
+display: block;
+}
+.perk-title {
+color: #212121;
+font-size: 14px;
+font-weight: 700;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+}
+.perk-info {
+width: 270px;
+color: var(--add-color);
+font-size: 14px;
+line-height: 171.429%;
+letter-spacing: 0.42px;
+}
+.perk-title-item {
+color: var(--maine-color);
+font-size: 14px;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+}
+.perk-info-list {
+width: 270px;
+color: var(--add-color);
+font-size: 14px;
+line-height: 171.429%;
+letter-spacing: 0.42px;
+}
+.perk-planning {
+color: var(--maine-color);
+font-size: 14px;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+}
+.perk-planning-info {
+width: 270px;
+color: #757575;
+font-size: 14px;
+line-height: 171.429%;
+letter-spacing: 0.42px;
+}
+.perk-technologies-title {
+color: var(--maine-color);
+font-size: 14px;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+}
+.perk-technologies-info {
+width: 270px;
+color: var(--add-color);
+font-size: 14px;
+line-height: 171.429%;
+letter-spacing: 0.42px;
+}
+.work-title {
+    color: var(--maine-color);
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+letter-spacing: 1.08px;
+}
+.work-item {
+    width: 370px;
+height: 294px;
+flex-shrink: 0;
+}
+.team {
+    flex-grow: 1;
+    display: flex;
+}
+.team-title {
+color: var(--maine-color);
+text-align: center;
+font-size: 36px;
+letter-spacing: 1.08px;
+}
+.team-worker {
+width: 270px;
+height: 260px;
+flex-shrink: 0;
+}
+.team-title-work {
+color: var(--maine-color);
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.48px;
+}
+.team-info {
+color: #757575;
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.48px;    
+}
+.footer {
+background: var(--bg-color);
+ width: 1600px;
+height: 252px;
+flex-shrink: 0;
+}
+.footer-info {
+color: #2196F3;
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+letter-spacing: 0.78px;
+}
+.footer-span {
+    color: #FFF;
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+letter-spacing: 0.78px;
+}
+.address-link {
+color: #FFF;
+font-size: 14px;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.42px;
+text-decoration: none;
+}
+.address-mail {
+color: rgba(255, 255, 255, 0.60);
+font-size: 14px;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.42px;
+text-decoration: none;
+}
+.address-num {
+color: rgba(255, 255, 255, 0.60);
+font-size: 14px;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.42px;
+text-decoration: none;
+}
