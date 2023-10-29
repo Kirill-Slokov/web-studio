@@ -9,17 +9,14 @@ body {
 }
 .logo {
     color: #2196f3;
-font-family: Raleway;
+    font-family: Raleway;
 font-size: 26px;
 letter-spacing: 0.78px;
 }
 .logo-studio {
     color: #000;
-font-family: Raleway;
-font-size: 26px;
-letter-spacing: 0.78px;
 }
-.novigation-item {
+.nav-link {
     color: var(--maine-color);
 font-size: 14px;
 font-weight: 500;
@@ -40,7 +37,7 @@ text-decoration: none;
 .contact-link:hover {
 color: #2196f3;
 }
-.contact-num {
+.contact-item {
     color: var(--add-color);
 font-size: 14px;
 font-weight: 500;
@@ -48,8 +45,6 @@ letter-spacing: 0.28px;
 }
 .hero {
 background: #2F303A;
-width: 1600px;
-height: 600px;
 }
 .hero-title {
     color: #ffff;
@@ -71,57 +66,24 @@ margin: 0%;
 display: block;
 }
 .perk-title {
-color: #212121;
-font-size: 14px;
-font-weight: 700;
-letter-spacing: 0.42px;
-text-transform: uppercase;
+    color: var(--maine-color);
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
 }
 .perk-info {
-width: 270px;
-color: var(--add-color);
+color: var(--maine-color);
 font-size: 14px;
-line-height: 171.429%;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
 letter-spacing: 0.42px;
 }
-.perk-title-item {
+.perk-item {
 color: var(--maine-color);
 font-size: 14px;
 letter-spacing: 0.42px;
 text-transform: uppercase;
-}
-.perk-info-list {
-width: 270px;
-color: var(--add-color);
-font-size: 14px;
-line-height: 171.429%;
-letter-spacing: 0.42px;
-}
-.perk-planning {
-color: var(--maine-color);
-font-size: 14px;
-letter-spacing: 0.42px;
-text-transform: uppercase;
-}
-.perk-planning-info {
-width: 270px;
-color: #757575;
-font-size: 14px;
-line-height: 171.429%;
-letter-spacing: 0.42px;
-}
-.perk-technologies-title {
-color: var(--maine-color);
-font-size: 14px;
-letter-spacing: 0.42px;
-text-transform: uppercase;
-}
-.perk-technologies-info {
-width: 270px;
-color: var(--add-color);
-font-size: 14px;
-line-height: 171.429%;
-letter-spacing: 0.42px;
 }
 .work-title {
     color: var(--maine-color);
