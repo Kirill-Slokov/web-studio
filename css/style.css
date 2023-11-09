@@ -166,40 +166,39 @@ font-style: normal;
 .address-link:first-child{
     color: white;
 }
-
-.portfolio-btn-item {
+.navgation-list {
+    list-style: none;
+}
+.filters-list {
+    list-style-type: none;
+}
+.filters-btn {
     line-height: 1.62;
     letter-spacing: 0.48px;
     width: 125px;
 height: 38px;
 flex-shrink: 0;
-list-style: none;
 }
-.portfolio-btn:hover {
+.filters-btn:hover {
 background-color: #2196F3;
 color: #fff;
 border: 0px;
 }
-.work-img {
+.projects-list {
+    list-style: none;
+}
+.projects-img {
     width: 370px;
 height: 294px;
 flex-shrink: 0;
 }
-.portfolio-img-list {
-    list-style: none;
-}
-.portfolio-title {
+.projects-title {
 font-size: 18px;
 line-height: 200%;
 letter-spacing: 1.08px;
 }
-.portfolio-info {
+.projects-info {
 color: #757575;
 line-height: 1.87;
 letter-spacing: 0.48px;
-}
-.port-img {
-    width: 370px;
-height: 294px;
-flex-shrink: 0;
 }
