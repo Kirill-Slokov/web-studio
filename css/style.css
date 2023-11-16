@@ -71,7 +71,7 @@ body {
 .navigation-list {
   list-style-type: none;
   display: flex;
-  margin-right: 344px;
+  
 }
 .nav-link {
   color: var(--maine-color);
@@ -87,7 +87,8 @@ body {
 .contact-list {
   list-style-type: none;
   display: flex;
-  margin-right: 50px;
+  align-items: center;
+  margin-left: 230px;
 }
 .contact-link {
   color: var(--add-color);
