@@ -182,6 +182,7 @@ body {
 .team {
   padding-top: 94px;
   padding-bottom: 94px;
+  background-color: #F5F4FA;
 }
 .team-list {
   display: flex;
@@ -200,6 +201,10 @@ body {
   width: 270px;
   height: 260px;
   flex-shrink: 0;
+  margin-right: 30px;
+}
+.box {
+  background-color: #ffff;
   margin-right: 30px;
 }
 .team-title-work {
