@@ -219,6 +219,7 @@ body {
   text-align: center;
   letter-spacing: 0.48px;
   margin-top: 10px;
+  margin-bottom: 30px;
 }
 .footer {
   background: var(--bg-color);
