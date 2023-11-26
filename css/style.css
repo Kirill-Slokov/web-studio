@@ -140,6 +140,7 @@ body {
   display: flex;
   flex-grow: 1;
   list-style-type: none;
+  column-gap: 30px;
 }
 .perk-title {
   color: var(--maine-color);
@@ -160,7 +161,6 @@ body {
   width: 270px;
   height: 48px;
   flex-shrink: 0;
-  margin-right: 30px;
 }
 .work {
   padding-bottom: 94px;
@@ -226,7 +226,7 @@ body {
   background: var(--bg-color);
   flex-shrink: 0;
   padding-top: 60px;
-  padding-bottom: 161px;
+  padding-bottom: 50px;
   width: 100%;
 }
 .footer-info {
@@ -235,6 +235,11 @@ body {
   font-size: 26px;
   font-weight: 700;
   letter-spacing: 0.78px;
+}
+.address-link[href^="tel:"],
+.address-link[href^="mailto:"] {
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.71;
 }
 .footer-span {
   color: #fff;
@@ -245,15 +250,12 @@ body {
   margin-bottom: 20px;
 }
 .address-link {
-  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 9px;
+  color: #fff;
   font-size: 14px;
-  line-height: 1.71; /* 171.429% */
-  letter-spacing: 0.42px;
-  text-decoration: none;
   font-style: normal;
-}
-.address-link:first-child {
-  color: white;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
 }
 .navgation-list {
   list-style: none;
