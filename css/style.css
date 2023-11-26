@@ -56,6 +56,7 @@ body {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
+  border-bottom: 1px solid #EEE;
 }
 .logo {
   color: var(--accent-color);
@@ -131,6 +132,8 @@ body {
   letter-spacing: 0.96px;
   background: var(--accent-color);
   margin: 0%;
+  padding: 10px 32px;
+  border-radius: 4px;
 }
 .perk {
   padding-top: 94px;
@@ -220,7 +223,7 @@ body {
   text-align: center;
   letter-spacing: 0.48px;
   margin-top: 10px;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 .footer {
   background: var(--bg-color);
@@ -266,32 +269,49 @@ body {
 }
 .filters-list {
   list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.filters-item + .filters-item {
+  margin-left: 8px;
 }
 .filters-btn {
   font-weight: 500;
   letter-spacing: 0.48px;
-  width: 125px;
-  height: 38px;
+  padding: 6px 23px;
+  border-radius: 4px;
+  border: none;
 }
 .filters-btn:hover {
   background-color: var(--accent-color);
-  color: var(--maine-color);
+  color: #fff;
   border: 0px;
 }
 .projects-list {
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+.projects-item {
+  border: 1px solid #EEE;
+  width: 370px;
 }
 .projects-img {
-  height: 294px;
-  flex-shrink: 0;
+  margin-bottom: 20px;
 }
 .projects-title {
   font-size: 18px;
   line-height: 200%;
   letter-spacing: 1.08px;
+  margin-left: 24px;
 }
 .projects-info {
   color: var(--add-color);
   line-height: 1.87;
   letter-spacing: 0.48px;
+  padding-bottom: 20px;
+  margin-left: 24px;
 }
