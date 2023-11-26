@@ -229,8 +229,7 @@ body {
   background: var(--bg-color);
   flex-shrink: 0;
   padding-top: 60px;
-  padding-bottom: 50px;
-  width: 100%;
+  padding-bottom: 60px;
 }
 .footer-info {
   color: var(--accent-color);
@@ -282,6 +281,9 @@ body {
   padding: 6px 23px;
   border-radius: 4px;
   border: none;
+  background-color: #f5f4fa;
+  color: #212121;
+  line-height: 1.62;
 }
 .filters-btn:hover {
   background-color: var(--accent-color);
@@ -307,6 +309,7 @@ body {
   line-height: 200%;
   letter-spacing: 1.08px;
   margin-left: 24px;
+  margin-bottom: 4px;
 }
 .projects-info {
   color: var(--add-color);
