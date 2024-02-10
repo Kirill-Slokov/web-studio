@@ -136,13 +136,57 @@ body {
 }
 .perk {
   padding-top: 94px;
-  padding-bottom: 94px;
+  padding-bottom: 220px;
 }
 .perk-list {
   display: flex;
   flex-grow: 1;
   list-style-type: none;
   column-gap: 30px;
+}
+.antenna::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/antenna.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70px 270px 120px;
+  margin-bottom: 30px;
+}
+.clock::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/clock.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70px 270px 120px;
+  margin-bottom: 30px;
+}
+.comp::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/comp.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70px 270px 120px;
+  margin-bottom: 30px;
+}
+.cosmo::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/cosmo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: 70px 270px 120px;
+  margin-bottom: 30px;
 }
 .perk-item {
   flex-basis: 270px;
